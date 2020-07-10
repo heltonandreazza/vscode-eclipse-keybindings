@@ -1,8 +1,21 @@
 // Place your settings in this file to overwrite the default settings
 {
-  "stylelint.enable": true,
-  // Git Bash
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  "esversion": 5,
-  "editor.tabSize": 2
+    "workbench.iconTheme": "vscode-great-icons",
+    "editor.tabSize": 2,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "terminal.integrated.rendererType": "dom",
+    "terminal.explorerKind": "external",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDragAndDrop": false,
+    "editor.largeFileOptimizations": false,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": false,
+        "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.suggest.autoImports": true
 }
